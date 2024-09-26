@@ -21,7 +21,7 @@ jobs:
 
       - name: Commit changes 10 times
         run: |
-          for i in {1..10}
+          for i in {1..50}
           do
             echo "Auto commit number $i at $(date)" >> README.md
             git config user.name "github-actions[bot]"
